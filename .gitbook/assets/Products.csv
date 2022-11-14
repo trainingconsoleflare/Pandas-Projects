@@ -1,0 +1,8 @@
+id,Product_ID,Product_name,Category,Price,Seller_City
+0,101,Watch,Fashion,299.0,Delhi
+1,102,Bag,Fashion,1350.5,Mumbai
+2,103,Shoes,Fashion,2999.0,Chennai
+3,104,Smartphone,Electronics,14999.0,Kolkata
+4,105,Books,Study,145.0,Delhi
+5,106,Oil,Grocery,110.0,Chennai
+6,107,Laptop,Electronics,79999.0,Bengalore

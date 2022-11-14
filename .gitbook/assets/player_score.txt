@@ -1,0 +1,6 @@
+#,Player,Match1,Match2,Match3
+1,Virat,100,25,75
+2,Dhoni,78,93,25
+3,Jadeja,56,78,90
+4,Ashwin,78,47,112
+5,Sachin,112,45,78
