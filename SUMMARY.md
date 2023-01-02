@@ -12,3 +12,4 @@
 * [Validation In Pandas](validation-in-pandas.md)
 * [Required Files](required-files.md)
 * [Sales Analysis Project](sales-analysis-project.md)
+* [Fetching Data From SQL](fetching-data-from-sql.md)
