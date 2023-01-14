@@ -130,7 +130,7 @@ plt.grid()
 plt.show()
 ```
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 
 
@@ -235,7 +235,7 @@ plt.ylabel('Maths-Score')
 plt.show()
 ```
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (1).png>)
 
 
 
