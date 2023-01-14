@@ -22,5 +22,7 @@ But there is a challenge, How would you fetch data from a Machine that is not sw
 
 In simple words, Servers used to get Data from Computer A so that even if Computer A is not Connected , Server can send information to client's Computer.
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 
 
