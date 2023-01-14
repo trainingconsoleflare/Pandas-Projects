@@ -24,5 +24,15 @@ In simple words, Servers used to get Data from Computer A so that even if Comput
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+### <mark style="color:purple;">Two Tier Servers :</mark>&#x20;
+
+#### Application Tier Server :&#x20;
+
+An application tier server is a type of server that is used to host and run application software. It is responsible for processing and managing requests from clients, such as web browsers or mobile devices, and delivering the appropriate responses. The application tier server communicates with databases and other back-end systems to retrieve and store data, and it also handles tasks such as authentication, authorization, and session management.
+
+#### Data Tier Server :&#x20;
+
+A data tier server is a type of server that is used to store and manage data. It is responsible for the physical storage, organization, and retrieval of data in a database or other data storage system. The data tier server is separate from the application tier server, which handles the processing and management of requests and responses. Data tier server is also responsible for ensuring the integrity, security and backup of the data.
+
 
 
