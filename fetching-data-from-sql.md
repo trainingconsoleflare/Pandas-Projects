@@ -22,7 +22,7 @@ But there is a challenge, How would you fetch data from a Machine that is not sw
 
 In simple words, Servers used to get Data from Computer A so that even if Computer A is not Connected , Server can send information to client's Computer.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:purple;">Two Tier Servers :</mark>&#x20;
 
@@ -34,5 +34,24 @@ An application tier server is a type of server that is used to host and run appl
 
 A data tier server is a type of server that is used to store and manage data. It is responsible for the physical storage, organization, and retrieval of data in a database or other data storage system. The data tier server is separate from the application tier server, which handles the processing and management of requests and responses. Data tier server is also responsible for ensuring the integrity, security and backup of the data.
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+### <mark style="color:purple;">What is File System :</mark>&#x20;
+
+A file system is a way for a computer's operating system to organize and keep track of files and folders on a storage device, such as a hard drive. It is responsible for storing, retrieving and updating files as well as managing the available space on the storage device.
+
+Some common challenges in file systems include:
+
+1. \--->**Scalability**: <mark style="color:red;">As the number of users and files increases, the file system must be able to handle the load and continue to function effectively.</mark>
+2. \--->**Performance**: <mark style="color:red;">File systems must be able to access files quickly and efficiently, even when dealing with large amounts of data.</mark>
+3. \--->**Data Consistency**: <mark style="color:red;">File systems must ensure that data is stored and retrieved consistently, even in the event of power failures or other system failures.</mark>
+4. \--->**Data Security**: <mark style="color:red;">File systems must be able to protect data from unauthorized access and ensure data integrity.</mark>
+5. \--->**Data Management**: <mark style="color:red;">File systems must be able to organize and manage large amounts of data in an efficient and effective manner.</mark>
+6. \--->**Data Backup and Recovery**: <mark style="color:red;">File systems must be able to recover data in the event of data loss or corruption.</mark>
+7. \--->**Concurrency and Access Control**: <mark style="color:red;">File systems must be able to handle multiple users accessing the same files at the same time and control access to files.</mark>
+8. \--->**File system complexity and compatibility** : <mark style="color:red;">Handling different type of file systems and making them compatible with other systems.</mark>
+
+One of the major problem we had to deal with is Organization. You can save data almost anywhere that makes accessing data , quite difficult.
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

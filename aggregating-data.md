@@ -469,4 +469,4 @@ Out\[50]:
 
 82 rows × 4 columns
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/image (10) (1).png>)
