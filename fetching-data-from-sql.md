@@ -71,3 +71,25 @@ There are several tools available for working with Relational Database Managemen
 Examples include Oracle SQL Developer, MySQL Workbench, and Microsoft SQL Server Management Studio.
 {% endhint %}
 
+### <mark style="color:purple;">Here Came SQL To Interact With RDMBS</mark> :&#x20;
+
+**In simpler terms, SQL is a language that allows you to communicate with a database and retrieve, modify or add information to it. It is like a bridge between the user and the database.**
+
+SQL (Structured Query Language) is a programming language that is used to manage and manipulate relational databases. It is used to insert, update, and query data stored in a relational database management system (RDBMS). SQL allows you to interact with the database by inserting, updating, and retrieving data stored in tables.
+
+SQL is used to perform a variety of tasks, such as:
+
+* Creating and modifying tables, views, and other database objects
+* Inserting, updating, and deleting data in the database
+* Retrieving data from the database using SELECT statements
+* Creating and modifying indexes to improve the performance of queries
+* Managing users and controlling access to the database
+* Creating and managing constraints to ensure data integrity
+
+**SQL is a standard language used by most RDBMS, like Oracle, MySQL, SQL Server, PostgreSQL, and SQLite, but there are slight variations and different features implemented in each one.**
+
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+
+
+\

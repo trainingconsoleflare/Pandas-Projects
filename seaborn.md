@@ -434,7 +434,7 @@ sns.catplot(x='total_bill',y='day',data=df,kind='point')
 plt.show()
 ```
 
-![](<.gitbook/assets/image (20).png>)
+![](<.gitbook/assets/image (20) (1).png>)
 
 
 
