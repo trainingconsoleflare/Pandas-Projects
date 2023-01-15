@@ -279,4 +279,4 @@ Out\[13]:
 | 3 | 9  | pawan  | 30  |
 | 4 | 10 | gaurav | 32  |
 
-![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (4) (1).png>)

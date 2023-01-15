@@ -34,7 +34,7 @@ An application tier server is a type of server that is used to host and run appl
 
 A data tier server is a type of server that is used to store and manage data. It is responsible for the physical storage, organization, and retrieval of data in a database or other data storage system. The data tier server is separate from the application tier server, which handles the processing and management of requests and responses. Data tier server is also responsible for ensuring the integrity, security and backup of the data.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:purple;">What is File System :</mark>&#x20;
 
@@ -54,4 +54,20 @@ Some common challenges in file systems include:
 One of the major problem we had to deal with is Organization. You can save data almost anywhere that makes accessing data , quite difficult.
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:purple;">How Did We Solve This Problem ---> RDBMS (Relational Database Management System)</mark>
+
+A Relational Database Management System (RDBMS) is a type of database management system that uses a relational model to organize data. It **stores data in tables, with each table consisting of rows and columns. The columns represent attributes of the data, and the rows represent individual records.**
+
+**The RDBMS allows users to create, read, update and delete data in the database**. It also provides a way to enforce rules and constraints on the data to ensure the integrity and consistency of the data.
+
+In simpler terms, **RDBMS is a type of software that helps organize, store and retrieve data in a structured way, like a digital spreadsheet. It allows you to create tables and specify relationships between different tables of data, making it easy to search and filter data based on specific criteria.**
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+There are several tools available for working with Relational Database Management Systems (RDBMS).
+
+Examples include Oracle SQL Developer, MySQL Workbench, and Microsoft SQL Server Management Studio.
+{% endhint %}
 
