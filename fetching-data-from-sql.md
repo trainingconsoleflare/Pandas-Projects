@@ -86,11 +86,13 @@ SQL is used to perform a variety of tasks, such as:
 * Managing users and controlling access to the database
 * Creating and managing constraints to ensure data integrity
 
-**SQL is a standard language used by most RDBMS, like Oracle, MySQL, SQL Server, PostgreSQL, and SQLite, but there are slight variations and different features implemeted in each one.**
+**SQL is a standard language used by most RDBMS, like Oracle, MySQL, SQL Server, PostgreSQL, and SQLite, but there are slight variations and differ ent features implemented in each one.**
 
 <figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-Now different applications generate Data and server helps us to store them , what we need to do is to fetch data from Server and perform analysis with the help of pandas.
+Now different applications generate Data and server helps us to store them, what we need to do is to fetch data from Server and perform analysis with the help of pandas.
+
+### Introduction To AWS:
 
 
 
