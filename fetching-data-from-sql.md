@@ -53,7 +53,7 @@ Some common challenges in file systems include:
 
 One of the major problem we had to deal with is Organization. You can save data almost anywhere that makes accessing data , quite difficult.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:purple;">How Did We Solve This Problem ---> RDBMS (Relational Database Management System)</mark>
 
@@ -63,7 +63,7 @@ A Relational Database Management System (RDBMS) is a type of database management
 
 In simpler terms, **RDBMS is a type of software that helps organize, store and retrieve data in a structured way, like a digital spreadsheet. It allows you to create tables and specify relationships between different tables of data, making it easy to search and filter data based on specific criteria.**
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 There are several tools available for working with Relational Database Management Systems (RDBMS).
@@ -92,7 +92,17 @@ SQL is used to perform a variety of tasks, such as:
 
 Now different applications generate Data and server helps us to store them, what we need to do is to fetch data from Server and perform analysis with the help of pandas.
 
-### Introduction To AWS:
+To run queries from SQL, we need to install **mysql-connector-python.**&#x20;
+
+```python
+pip install mysql-connector-python
+```
+
+So we are going to access data from cloud service **AWS(Amazon Web Sevices).**We are going to create a database first. we will import data from excel in our database.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;****&#x20;
 
 
 
