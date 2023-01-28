@@ -1,6 +1,6 @@
 # Missing Values In Pandas
 
-![](<.gitbook/assets/image (35).png>)
+![](<.gitbook/assets/image (35) (1).png>)
 
 ## How To Handle Missing Values In Pandas ? <a href="#how-to-handle-missing-values-in-pandas" id="how-to-handle-missing-values-in-pandas"></a>
 

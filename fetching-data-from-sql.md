@@ -100,13 +100,47 @@ pip install mysql-connector-python
 
 So we are going to access data from cloud service **AWS(Amazon Web Sevices).**We are going to create a database first. we will import data from excel in our database.
 
+<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+### **Things that we need to fetch data from a Relational Database :**&#x20;
+
+&#x20;**--->RDBMS**
+
+**--->IP Address**
+
+**--->Server UserName**
+
+**--->Server Password**
+
+**--->Database**
+
+**--->Table**
+
+### Go to [AWS](https://aws.amazon.com/) :
+
+Sign in or Create an account and Sign in AWS.
+
+### Go to Services and Choose Database to Create One.
+
+&#x20;Go to services and click on database and click on RDS (Relational Database Service).
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;****&#x20;
+Here in resources you can see no DB Instances or any server is active as of now.  So let's create a new Database by clicking on **Create Database.**
 
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+Choose **MySQL** engine. Hence RDBMS is **MySQL.**
 
+Choose Template **Free tier.**
 
+<figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+
+Now go to settings below and fill all the required information. So we have created a database instance named **console-instance.**
+
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 
 

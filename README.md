@@ -60,7 +60,7 @@ print(df.head(5))    #Top 5 Rows
 print(df.head(-5))    #Last 5 Rows
 ```
 
-![](<.gitbook/assets/image (15).png>)
+![](<.gitbook/assets/image (15) (1).png>)
 
 
 

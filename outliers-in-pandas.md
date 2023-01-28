@@ -142,7 +142,7 @@ print(round(standard_deviation))
 
 And the good thing about the Standard Deviation is that it is useful. Now we can show which heights are within one Standard Deviation (147mm) of the Mean: &#x20;
 
-![](<.gitbook/assets/image (3).png>)
+![](<.gitbook/assets/image (3) (1).png>)
 
 So, using the Standard Deviation we have a "standard" way of knowing what is normal, and what is extra large or extra small.
 
@@ -150,7 +150,7 @@ Rottweilers are tall dogs. And Dachshunds are a bit short, right?&#x20;
 
 ## Quartile in Pandas: <a href="#quartile-in-pandas" id="quartile-in-pandas"></a>
 
-![](<.gitbook/assets/image (22).png>)
+![](<.gitbook/assets/image (22) (1).png>)
 
 
 
@@ -346,4 +346,4 @@ Out\[9]:
 
 258762 rows × 10 columns
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (9) (1).png>)

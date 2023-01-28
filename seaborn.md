@@ -221,7 +221,7 @@ In \[15]:
 # plt.show()
 ```
 
-![](<.gitbook/assets/image (16).png>)
+![](<.gitbook/assets/image (16) (1).png>)
 
 Graph would have appeared like this.
 
@@ -535,7 +535,7 @@ df = pd.read_csv('Pokemon.csv')
 sns.countplot(y='Type 1',data=df)
 ```
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (2) (1).png>)
 
 
 
