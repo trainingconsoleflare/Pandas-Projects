@@ -126,7 +126,7 @@ Sign in or Create an account and Sign in AWS.
 
 <figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 Here in resources you can see no DB Instances or any server is active as of now.  So let's create a new Database by clicking on **Create Database.**
 
@@ -157,7 +157,7 @@ Now Let's create a connection with MySQL Workbench.
 
 So we have created a connection named **dec-connect.**  Add **IP** as **Hostname** and **username** as **admin** and **Password** as we had set before.After this Click on **test the connection.**  A Pop up should appear something like this:&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 After this we have successfully tested the connection and then click on **OK.** You will find SQL connections like this :&#x20;
 
@@ -167,5 +167,9 @@ After this we have successfully tested the connection and then click on **OK.** 
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-So let us create a Database on this Server First.&#x20;
+So let us create a Database on this Server First. To Create a Schema, Click on **sys** and then click on **create schema.**  So We have created a Schema named **consolebase.**
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
 
