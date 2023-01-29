@@ -13,3 +13,4 @@
 * [Required Files](required-files.md)
 * [Sales Analysis Project](sales-analysis-project.md)
 * [Fetching Data From SQL](fetching-data-from-sql.md)
+* [Automation In Python (Walmart Report)](automation-in-python-walmart-report.md)
