@@ -164,7 +164,7 @@ Out\[7]:
 
 ## Left join <a href="#left-join" id="left-join"></a>
 
-![](<.gitbook/assets/image (14).png>)
+![](<.gitbook/assets/image (14) (1).png>)
 
 **Now, let’s say the leadership team wants information about only those customers who bought something from us. You guessed it – we can use the concept of Left Join here.**
 

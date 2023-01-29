@@ -52,7 +52,7 @@ In \[ ]:
 print(df.head(5))    #Top 5 Rows
 ```
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (6) (1).png>)
 
 
 

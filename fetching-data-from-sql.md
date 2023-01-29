@@ -8,7 +8,7 @@ _**Or we can Simply Say , All machines around the world is interconnected. Somet
 
 _****_
 
-<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Each Computer is given an address known as `IP Address.` An IP address is a unique address that identifies a device on the internet or a local network. IP stands for "Internet Protocol," and we are able to fetch data with the help of `IP Address.`
@@ -169,7 +169,56 @@ After this we have successfully tested the connection and then click on **OK.** 
 
 So let us create a Database on this Server First. To Create a Schema, Click on **sys** and then click on **create schema.**  So We have created a Schema named **consolebase.**
 
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+After Creating Schema, we need to create a table.  You can simply click in create table and create a table manually.
+
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+Or we can directly import our excel file from import option , that is below **Table Data Import Wizard.**  Click on **Table Data Import Wizard** and Browse your File from there only.
 
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
+Click on **Next.**
+
+<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+Create a new table named **datatable.** And then Click on next and finish.
+
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+Now you can see with this following Query,all the records:&#x20;
+
+```sql
+select * from consolebase.datatable;
+```
+
+&#x20;****&#x20;
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**We have Established the connection , created database and table and stored our Data in it.**
+{% endhint %}
+
+Now Let's Create Connection using mysql-connector-python and fetch the data from server.
+
+```python
+import pandas as pd
+import mysql.connector as mc
+
+#connect will take configurations and establish the connection from server.
+myco = mc.connect (host="hostname", User="username", 
+passwd= "pswd", database= "db name")
+
+# SQL Query to select all records from Datatable.
+q="select from datatable"
+
+df= pd.read_sql (q, myco)
+
+t=date.today ()
+
+df.to_csv(fr'{str (t) }.csv')
+```
+
+It will store the Data in a CSV File with current Date.&#x20;
