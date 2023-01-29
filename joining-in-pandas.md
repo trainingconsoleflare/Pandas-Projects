@@ -1,6 +1,6 @@
 # Joining In Pandas
 
-![](<.gitbook/assets/image (5).png>)
+![](<.gitbook/assets/image (5) (1).png>)
 
 ## Introduction To joins in pandas: <a href="#introduction-to-joins-in-pandas" id="introduction-to-joins-in-pandas"></a>
 
@@ -279,4 +279,4 @@ Out\[13]:
 | 3 | 9  | pawan  | 30  |
 | 4 | 10 | gaurav | 32  |
 
-![](<.gitbook/assets/image (4) (1).png>)
+![](<.gitbook/assets/image (4) (1) (1).png>)

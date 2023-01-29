@@ -22,7 +22,7 @@ But there is a challenge, How would you fetch data from a Machine that is not sw
 
 In simple words, Servers used to get Data from Computer A so that even if Computer A is not Connected , Server can send information to client's Computer.
 
-<figure><img src=".gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:purple;">Two Tier Servers :</mark>&#x20;
 
@@ -34,7 +34,7 @@ An application tier server is a type of server that is used to host and run appl
 
 A data tier server is a type of server that is used to store and manage data. It is responsible for the physical storage, organization, and retrieval of data in a database or other data storage system. The data tier server is separate from the application tier server, which handles the processing and management of requests and responses. Data tier server is also responsible for ensuring the integrity, security and backup of the data.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:purple;">What is File System :</mark>&#x20;
 
@@ -63,7 +63,7 @@ A Relational Database Management System (RDBMS) is a type of database management
 
 In simpler terms, **RDBMS is a type of software that helps organize, store and retrieve data in a structured way, like a digital spreadsheet. It allows you to create tables and specify relationships between different tables of data, making it easy to search and filter data based on specific criteria.**
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 There are several tools available for working with Relational Database Management Systems (RDBMS).
@@ -124,13 +124,13 @@ Sign in or Create an account and Sign in AWS.
 
 &#x20;Go to services and click on database and click on RDS (Relational Database Service).
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Here in resources you can see no DB Instances or any server is active as of now.  So let's create a new Database by clicking on **Create Database.**
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Choose **MySQL** engine. Hence RDBMS is **MySQL.**
 
@@ -140,8 +140,32 @@ Choose Template **Free tier.**
 
 Now go to settings below and fill all the required information. So we have created a database instance named **console-instance.**
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-
+{% hint style="info" %}
+Use endpoint in console-instance DB as IP , under Connectivity and security.&#x20;
+{% endhint %}
 
 \
+
+
+<figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+
+Now Let's create a connection with MySQL Workbench.
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+So we have created a connection named **dec-connect.**  Add **IP** as **Hostname** and **username** as **admin** and **Password** as we had set before.After this Click on **test the connection.**  A Pop up should appear something like this:&#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+After this we have successfully tested the connection and then click on **OK.** You will find SQL connections like this :&#x20;
+
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+**Click on dec-connect.  It will open SQL - Editor for you.**&#x20;
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+So let us create a Database on this Server First.&#x20;
+

@@ -116,7 +116,7 @@ cols = df[['Name', 'Type 1', 'HP']]
 print(cols)
 ```
 
-![](<.gitbook/assets/image (54).png>)
+![](<.gitbook/assets/image (54) (1).png>)
 
 
 
