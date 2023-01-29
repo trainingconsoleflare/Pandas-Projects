@@ -128,7 +128,7 @@ In \[ ]:
 df.columns
 ```
 
-![](<.gitbook/assets/image (43).png>)
+![](<.gitbook/assets/image (43) (1).png>)
 
 
 

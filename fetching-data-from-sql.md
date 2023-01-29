@@ -1,5 +1,7 @@
 # Fetching Data From SQL
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ### <mark style="color:purple;">Introduction</mark>&#x20;
 
 _**The internet is a global network of interconnected computers and servers that communicate with each other using a common set of protocols. It allows users to share information, communicate with each other, and access a vast array of resources such as websites, online services, and applications. The internet is based on a client-server model, where users access resources on the internet by connecting to a server using a device such as a computer or smartphone.**_
@@ -173,7 +175,7 @@ So let us create a Database on this Server First. To Create a Schema, Click on *
 
 After Creating Schema, we need to create a table.  You can simply click in create table and create a table manually.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 Or we can directly import our excel file from import option , that is below **Table Data Import Wizard.**  Click on **Table Data Import Wizard** and Browse your File from there only.
 
@@ -195,7 +197,7 @@ select * from consolebase.datatable;
 
 &#x20;****&#x20;
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **We have Established the connection , created database and table and stored our Data in it.**
@@ -222,3 +224,5 @@ df.to_csv(fr'{str (t) }.csv')
 ```
 
 It will store the Data in a CSV File with current Date.&#x20;
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
