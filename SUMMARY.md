@@ -15,3 +15,4 @@
 * [Fetching Data From SQL](fetching-data-from-sql.md)
 * [Automation In Python (Walmart Report)](automation-in-python-walmart-report.md)
 * [Sentimental Analysis](sentimental-analysis.md)
+* [Pandas Practice Problems](pandas-practice-problems.md)
