@@ -69,7 +69,7 @@ print("Normalized Score:", normalized_score)
 
 ```
 
-Custom lexicon support: You can provide your own lexicon of words and sentiment scores, which will be used instead of the default lexicon.
+**Custom lexicon support**: You can provide your own lexicon of words and sentiment scores, which will be used instead of the default lexicon.
 
 ```python
 import afinn
