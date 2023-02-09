@@ -2,7 +2,7 @@
 
 ### What is Sentimental Analysis ?&#x20;
 
-Sentiment analysis is a field of Natural Language Processing (NLP) that focuses on identifying and extracting opinions and emotions from written text. It is used by governments and organizations to analyze large amounts of data and understand the public's opinion and emotions towards a particular topic or event.
+**Sentiment analysis** is a field of Natural Language Processing (NLP) that focuses on identifying and extracting opinions and emotions from written text. It is used by governments and organizations to analyze large amounts of data and understand the public's opinion and emotions towards a particular topic or event.
 
 For example, government organizations can use sentiment analysis to monitor social media and news articles to gauge public sentiment towards a particular policy or issue. This information can then be used to inform decision making and improve communication with the public.
 
@@ -39,7 +39,7 @@ Sentiment Score: 5.0
 
 AFINN library has several other features, including:
 
-1. Word-level sentiment analysis: AFINN can score individual words in a sentence, not just the entire sentence as a whole.
+1. **Word-level sentiment analysis**: AFINN can score individual words in a sentence, not just the entire sentence as a whole.
 
 ```python
 import afinn
@@ -56,7 +56,7 @@ print("Sentiment Scores:", sentiment_scores)
 Normalized Score: 4.5
 ```
 
-Normalization: AFINN can normalize the sentiment score by dividing it by the number of words in the sentence.
+**Normalization**: AFINN can normalize the sentiment score by dividing it by the number of words in the sentence.
 
 ```python
 import afinn
@@ -83,7 +83,7 @@ print("Sentiment Score:", sentiment_score)
 
 ```
 
-Sentiment lexicon expansion: You can add new words and sentiment scores to the lexicon at runtime.
+**Sentiment lexicon expansion**: You can add new words and sentiment scores to the lexicon at runtime.
 
 ```python
 import afinn
@@ -96,7 +96,7 @@ sentiment_score = afinn.score(sentence)
 print("Sentiment Score:", sentiment_score)
 ```
 
-Sentiment classification: AFINN can classify a sentence as positive, negative, or neutral based on its sentiment score.
+**Sentiment classification**: AFINN can classify a sentence as positive, negative, or neutral based on its sentiment score.
 
 ```python
 import afinn
@@ -109,7 +109,7 @@ print("Sentiment Class:", sentiment_class)
 
 ```
 
-Sentence tokenization: AFINN can split a long text into sentences for processing.
+**Sentence tokenization**: AFINN can split a long text into sentences for processing.
 
 ```python
 import afinn
