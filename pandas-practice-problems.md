@@ -221,3 +221,43 @@ df['Column_Name'].unique()
 
 </details>
 
+20. **`How do you drop a specific column from a dataframe?`**
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+
+df.drop('Column_Name', axis=1, inplace=True)
+
+```
+
+</details>
+
+21. **`How do you find the number of missing values in each column of a dataframe?`**
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+df.isnull().sum()
+
+```
+
+</details>
+
+22. **`How do you fill missing values in a specific column with a specific value?`**
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+df['Column_Name'].fillna(value, inplace=True)
+
+```
+
+</details>
+
