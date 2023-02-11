@@ -181,3 +181,43 @@ concatenated_df = pd.concat([df1, df2], axis=0)
 
 </details>
 
+17. **`How do you find the maximum and minimum values of a column in a dataframe?`**
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+max_value = df['Column_Name'].max()
+min_value = df['Column_Name'].min()
+
+```
+
+</details>
+
+18. **`How do you calculate the cumulative sum of a column in a dataframe?`**
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+df['Column_Name'].cumsum()
+
+```
+
+</details>
+
+19. **`How do you find the unique values of a column in a dataframe?`**
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+df['Column_Name'].unique()
+
+```
+
+</details>
+
