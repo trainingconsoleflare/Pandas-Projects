@@ -261,3 +261,105 @@ df['Column_Name'].fillna(value, inplace=True)
 
 </details>
 
+23. **`How do you drop all rows with more than two missing values in the dataframe?`**
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+Solution:
+df.dropna(thresh=len(df) - 2, axis=0, inplace=True)
+
+```
+
+</details>
+
+Let's Do some Data Cleaning and Analysis on the Practice Data.
+
+### Data Cleaning :&#x20;
+
+Although there are many steps to clean , but lets start with dropping duplicate rows.
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+df = df.drop_duplicates()
+```
+
+</details>
+
+### Fill missing values :&#x20;
+
+Find a way to fill missing values in Columns with Reasonable values.
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+df['Name'].fillna(df['Name'].mode()[0], inplace=True)
+df['Age'].fillna(df['Age'].mean(), inplace=True)
+df['City'].fillna(df['City'].mode()[0], inplace=True)
+df['Salary'].fillna(df['Salary'].mean(), inplace=True)
+```
+
+</details>
+
+### Exploratory Data Analysis (EDA) :&#x20;
+
+Generate a Statistical Summary.
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+print(df.describe())
+```
+
+</details>
+
+### Create histograms for each numeric column :&#x20;
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+df.hist()
+plt.show()
+```
+
+</details>
+
+### Create a bar chart to compare the distribution of salary across different cities :&#x20;
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+grouped_data = df.groupby('City')['Salary'].mean().reset_index()
+plt.bar(grouped_data['City'], grouped_data['Salary'])
+plt.xlabel('City')
+plt.ylabel('Average Salary')
+plt.show()
+```
+
+</details>
+
+### Group the data by city and calculate the mean salary for each city :&#x20;
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+city_group = df.groupby('City')
+mean_salary_by_city = city_group['Salary'].mean().reset_index()
+```
+
+</details>
