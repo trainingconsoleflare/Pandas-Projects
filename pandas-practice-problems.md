@@ -363,3 +363,65 @@ mean_salary_by_city = city_group['Salary'].mean().reset_index()
 ```
 
 </details>
+
+### Plot the mean salary for each city using a bar plot :&#x20;
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+plt.bar(mean_salary_by_city['City'], mean_salary_by_city['Salary'])
+plt.xlabel("City")
+plt.ylabel("Mean Salary")
+plt.title("Mean Salary by City")
+plt.xticks(rotation=45)
+plt.show()
+```
+
+</details>
+
+### Plot a scatter plot to visualize the relationship between Age and Salary :&#x20;
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+plt.scatter(df['Age'], df['Salary'])
+plt.xlabel("Age")
+plt.ylabel("Salary")
+plt.title("Relationship between Age and Salary")
+plt.show()
+```
+
+</details>
+
+### Find the highest-paid person in each city :&#x20;
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+top_paid_by_city = city_group['Salary'].max().reset_index()
+print("The highest-paid person in each city:")
+print(top_paid_by_city)
+```
+
+</details>
+
+### Find the youngest and oldest person in the data :&#x20;
+
+<details>
+
+<summary>Solution</summary>
+
+```python
+min_age = df['Age'].min()
+max_age = df['Age'].max()
+print("The youngest person in the data is", df.loc[df['Age'] == min_age, 'Name'].iloc[0], "with an age of", min_age)
+print("The oldest person in the data is", df.loc[df['Age'] == max_age, 'Name'].iloc[0], "with an age of", max_age)
+```
+
+</details>
