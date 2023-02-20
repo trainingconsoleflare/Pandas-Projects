@@ -1,6 +1,6 @@
 # Fetching Data From SQL
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:purple;">Introduction</mark>&#x20;
 

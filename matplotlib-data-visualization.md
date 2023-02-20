@@ -459,6 +459,26 @@ plt.show()
 
 ![](<.gitbook/assets/image (57).png>)
 
+### A Useful Example :&#x20;
+
+{% file src=".gitbook/assets/gas_prices.csv" %}
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Snapshot of Gas Price Data</p></figcaption></figure>
+
+_**Create a Line chart Comparing all the countries Yearly.**_&#x20;
+
+<details>
+
+<summary>Solution</summary>
+
+
+
+</details>
+
+_****_
+
+_****_
+
 _**Congrats !!! You have made it. Now practice all kind of graphs and implement in your datasets. Next topic that we are going to cover is Seaborn.**_
 
 ![](<.gitbook/assets/image (70).png>)
