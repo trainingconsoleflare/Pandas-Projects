@@ -425,3 +425,67 @@ print("The oldest person in the data is", df.loc[df['Age'] == max_age, 'Name'].i
 ```
 
 </details>
+
+## Group the data by age group and city and calculate the mean salary for each group and city
+
+`age_group = df.groupby(['Age Group', 'City']) mean_salary_by_age_group_and_city = age_group['Salary'].mean().reset_index()`
+
+## Pivot the table to display the mean salary for each age group and city
+
+`pivot_table = pd.pivot_table(mean_salary_by_age_group_and_city, values='Salary', index='Age Group', columns='City')`&#x20;
+
+`print("Mean Salary by Age Group and City:")`&#x20;
+
+`print(pivot_table)`
+
+## Plot the mean salary for each age group and city using a heatmap
+
+`sns.heatmap(pivot_table, annot=True, cmap='Blues')`&#x20;
+
+`plt.xlabel("City")`&#x20;
+
+`plt.ylabel("Age Group")`&#x20;
+
+`plt.title("Mean Salary by Age Group and City")`&#x20;
+
+`plt.show()`
+
+## Calculate the top 5 most common names in the data
+
+`top_names = df['Name'].value_counts().head()`&#x20;
+
+`print("The top 5 most common names in the data:")`&#x20;
+
+`print(top_names)`
+
+## Create a new column to indicate whether a person's age is below or above the average age
+
+`mean_age = df['Age'].mean()`&#x20;
+
+`df['Age Above Average'] = np.where(df['Age']>=mean_age, 1, 0)`
+
+## Group the data by age above average and city and calculate the median salary for each group and city
+
+`age_above_average_group = df.groupby(['Age Above Average', 'City'])`&#x20;
+
+`median_salary_by_age_above_avg_and_city=age_above_average_group['Salary'].median().reset_index()`
+
+## Pivot the table to display the median salary for each age above average group and city
+
+`pivot_table2 = pd.pivot_table(median_salary_by_age_above_average_and_city, values='Salary', index='Age Above Average', columns='City')`&#x20;
+
+`print("Median Salary by Age Above Average and City:")`&#x20;
+
+`print(pivot_table2)`
+
+## Plot the median salary for each age above average group and city using a stacked bar chart
+
+`pivot_table2.plot(kind='bar', stacked=True)`&#x20;
+
+`plt.xlabel("Age Above Average")`&#x20;
+
+`plt.ylabel("Median Salary")`&#x20;
+
+`plt.title("Median Salary by Age Above Average and City")`&#x20;
+
+`plt.show()`
