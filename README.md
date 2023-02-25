@@ -46,39 +46,17 @@
 
 **--->Pivoting Data**
 
-****
+### Filtering In Pandas
+
+\--->**Filtering Data**
+
+**--->Grouping Data**
+
+**--->Aggregating Grouped Data**
+
+**--->Pivoting Data**
 
 ****
-
-****
-
-
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-
-
-****
-
-
 
 ### Indexing and Slicing
 
