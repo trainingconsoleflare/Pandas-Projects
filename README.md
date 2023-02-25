@@ -327,3 +327,87 @@ plt.colorbar()
 plt.title('Title')
 plt.show()
 ```
+
+Here's a quick cheatsheet for some common visualization techniques using the Seaborn library in Python:
+
+### Importing the library
+
+```python
+import seaborn as sns
+```
+
+### Line plot
+
+```python
+sns.lineplot(x=x, y=y, hue=hue, style=style, markers=True)
+sns.set_style("whitegrid")
+sns.despine(left=True)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Scatter plot
+
+```python
+sns.scatterplot(x=x, y=y, hue=hue, style=style, markers=True)
+sns.set_style("whitegrid")
+sns.despine(left=True)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Bar plot
+
+```python
+sns.barplot(x=x, y=y, hue=hue)
+sns.set_style("whitegrid")
+sns.despine(left=True)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Histogram
+
+```python
+sns.histplot(x, kde=True)
+sns.set_style("whitegrid")
+sns.despine(left=True)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Box plot
+
+```python
+sns.boxplot(x=x, y=y, hue=hue)
+sns.set_style("whitegrid")
+sns.despine(left=True)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Heatmap
+
+```python
+sns.heatmap(data, cmap='coolwarm')
+plt.title('Title')
+plt.show()
+```
+
+### Pair plot
+
+```python
+sns.pairplot(data, hue=hue)
+plt.title('Title')
+plt.show()
+```
