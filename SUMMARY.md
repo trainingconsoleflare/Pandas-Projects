@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction To Pandas](README.md)
+* [CheatSheet In Pandas](README.md)
+* [Introduction To Pandas](<README (1).md>)
 * [Indexing and Slicing In Pandas](indexing-and-slicing-in-pandas.md)
 * [Joining In Pandas](joining-in-pandas.md)
 * [Missing Values In Pandas](missing-values-in-pandas.md)
