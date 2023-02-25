@@ -253,3 +253,77 @@ Note: `function` represents an aggregation function, such as 'mean' or 'sum'. `p
 
 These are some common methods for working with filtering and grouping in pandas, but there are many more methods and options available.
 
+Here's a quick cheatsheet for some common visualization techniques using the Matplotlib library in Python:
+
+### Importing the library
+
+```python
+import matplotlib.pyplot as plt
+```
+
+### Line plot
+
+```python
+plt.plot(x, y)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Scatter plot
+
+```python
+plt.scatter(x, y)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Bar plot
+
+```python
+plt.bar(x, height)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Histogram
+
+```python
+plt.hist(x, bins=10)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Box plot
+
+```python
+plt.boxplot(x)
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.title('Title')
+plt.show()
+```
+
+### Pie chart
+
+```python
+plt.pie(x, labels=labels)
+plt.title('Title')
+plt.show()
+```
+
+### Heatmap
+
+```python
+plt.imshow(data, cmap='coolwarm')
+plt.colorbar()
+plt.title('Title')
+plt.show()
+```
