@@ -225,3 +225,31 @@ Note: `df` represents a DataFrame object. `column_name` represents the name of t
 
 These are some common methods for working with dates and times in pandas, but there are many more methods and options available.
 
+### Filtering In Pandas
+
+Filtering and grouping data are common tasks in data analysis. Here is a cheat sheet for working with filtering and grouping in pandas:
+
+**Filtering Data**
+
+| Description                              | Syntax                                                              |
+| ---------------------------------------- | ------------------------------------------------------------------- |
+| Filter rows based on a condition         | `df[df['column_name'] < value]`                                     |
+| Filter rows based on multiple conditions | `df[(df['column_name1'] < value1) & (df['column_name2'] > value2)]` |
+| Filter rows based on a substring         | `df[df['column_name'].str.contains('substring')]`                   |
+| Filter rows based on missing values      | `df[df['column_name'].isna()]` or `df[df['column_name'].notna()]`   |
+
+Note: `df` represents a DataFrame object. `column_name` represents the name of the column to filter on. `value` represents the value to filter by.
+
+**Grouping Data**
+
+| Description                                     | Syntax                                                              |
+| ----------------------------------------------- | ------------------------------------------------------------------- |
+| Group by a single column                        | `df.groupby('column_name').agg(function)`                           |
+| Group by multiple columns                       | `df.groupby(['column_name1', 'column_name2']).agg(function)`        |
+| Apply multiple aggregation functions to a group | `df.groupby('column_name').agg(['mean', 'max', 'min'])`             |
+| Group by time intervals                         | `df.groupby(pd.Grouper(key='date_column', freq='D')).agg(function)` |
+
+Note: `function` represents an aggregation function, such as 'mean' or 'sum'. `pd.Grouper` is a pandas object for grouping time intervals. `key` represents the name of the column containing datetime values. `freq` represents the frequency of the time interval, such as 'D' for daily or 'M' for monthly.
+
+These are some common methods for working with filtering and grouping in pandas, but there are many more methods and options available.
+
