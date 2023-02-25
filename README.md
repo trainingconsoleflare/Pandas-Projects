@@ -1,5 +1,89 @@
 # CheatSheet In Pandas
 
+### -->Indexing and Slicing
+
+\--->**Indexing a DataFrame**
+
+**--->Slicing a DataFrame**
+
+**--->Indexing a Series**
+
+**--->Slicing a Series**
+
+### Joining and Merging in Pandas
+
+\--->**Joining DataFrames**
+
+**--->Merging DataFrames**
+
+**--->Joining and Merging with Duplicate Values**
+
+### Missing Values In Pandas
+
+\--->**Checking for Missing Values**
+
+**--->Dealing with Missing Values**
+
+**--->Interpolating Missing Values**
+
+**--->Replacing Values**
+
+### Aggregating Data In Pandas
+
+\--->**Aggregation Functions**
+
+**--->Grouping Data**
+
+**--->Aggregating Grouped Data**
+
+**--->Pivoting Data**
+
+### Datetime In Pandas
+
+\--->**Creating a DatetimeIndex**
+
+**--->Accessing Components of a Datetime**
+
+**--->Pivoting Data**
+
+****
+
+****
+
+****
+
+
+
+****
+
+****
+
+****
+
+****
+
+****
+
+****
+
+****
+
+****
+
+****
+
+****
+
+
+
+****
+
+
+
+### Indexing and Slicing
+
+
+
 Indexing and slicing in pandas are used to select a specific subset of data from a DataFrame or Series. Here is a cheat sheet for indexing and slicing in pandas:
 
 **Indexing a DataFrame**
